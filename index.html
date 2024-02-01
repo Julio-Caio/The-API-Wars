@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site que fornece a lista de personagens de Star Wars e filmes.">
+    <meta name="keywords" content="Star Wars, Guerras nas Estrelas, API">
+    <meta name="author" content="Julio Caio R dos Santos">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Star Wars - the API Wars</title>
+</head>
+<body>
+    <header>
+        <div class="img-header">
+            <img src="../assets/img/logo.jpeg" alt="Star Wars Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="https://github.com/Julio-Caio" target="_blank">My GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="btn"><i class="bi bi-play-fill"></i></div>
+        <canvas class="snow"></canvas>
+        <section class="intro intro-text">
+            <h3>A Long Time Ago, in a Galaxy Far, Far Away...</h3>
+        </section>
+        <br>
+        <section class="paragraphs">
+            <div class="history history-text">
+                <h5>Star Wars - Episode III: Revenge of the Sith</h5>
+                <p>
+                     The Republic is at war. Great battles are being fought across the galaxy. 
+                </p>
+                <p>
+                    In an act of treachery, the Sith Lord, Darth Sidious,
+                    has destroyed the Jedi Knights' alliance.
+                </p>
+                <p>
+                    Now, the dark side of the Force rules the galaxy, and the weakened Republic 
+                </p>
+                <p>
+                    cannot withstand the powers of the rising Galactic Empire.
+                    Conflicts spread across star systems,  
+                </p>
+                <p>
+                     and hopes of restoring peace and justice to 
+                     the galaxy are fading.
+                     In this dark moment, 
+                </p>
+                <p>
+                     Jedi Knight Anakin Skywalker finds himself at a 
+                     crossroads between duty and love,
+                </p>
+                <p>
+                    between Jedi and Sith, as the influence of the Dark Side of the 
+                    Force intensifies within him.
+                </p>
+                <br>
+                <p>
+                    Under the watchful eye of Supreme Chancellor Palpatine,
+                    the destinies of entire galaxies will be decided.
+                </p>
+                <br>
+            </div>
+        </section>
+        <audio src="https://raw.githubusercontent.com/glaucia86/sounds/master/starwars.mp3" class="theme-song"></audio>
+    </main>
+    
+    <footer>
+        <h4>Star Wars - the API Wars</h4>
+        <div class="footer-references">
+            <br>
+            <p>Desenvolvido com 💜 por Júlio Caio<span>API utilizada: <a href="https://swapi.dev/api/"  target="_blank" >SWAPI</a></span></p>
+            <br>
+        </div>
+
+        <hr/>
+
+        <div class="social-media">
+            <p>Me siga nas Redes Sociais:</p>
+            <a href="https://www.instagram.com/juliocaio_rds/"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/julio-caio-r-santos/"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.github.com/Julio-Caio"><i class="bi bi-github"></i></a>
+        </div>
+    </footer>
+    <script src="js/intro-theme.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+            window.alert("Press the button to start the animation");
+        }, 3000);
+    });
+    </script>
+</body>
+</html>
